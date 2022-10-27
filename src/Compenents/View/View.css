@@ -1,0 +1,30 @@
+#wrapper_carrousel {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+#left_arrow {
+    transform: translateY(-50%);
+    position: absolute;
+    left: -40px;
+    top: 50%;
+    bottom: 50%;
+    width: 40px;
+    height: 45px;
+
+    cursor: pointer;
+}
+
+#right_arrow {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 50%;
+    width: 40px;
+    height: 45px;
+    cursor: pointer;
+
+}
