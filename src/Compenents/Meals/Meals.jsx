@@ -1,23 +1,23 @@
 import React, { useEffect } from 'react'
 import Meal from '../Meal/Meal'
-
+import "./Meals.css"
 export default function Meals({ meals }) {
     useEffect(() => {
         console.log(meals)
     }, [])
     return (
-        <div>
+        <div className='wrapper_card'>
 
-            {meals.map((meal, index) => {
+            {meals.map((meal, index) =>
 
-                < Meal
+                <Meal
                     key={index}
                     index={index}
                     meal={meal}
-                    alt={meal}
                 />
 
-            })}
+
+            )}
 
         </div>
     )

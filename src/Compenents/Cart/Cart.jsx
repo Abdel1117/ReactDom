@@ -1,7 +1,18 @@
 import React from 'react'
+import { useState } from 'react'
 
 export default function Cart({ index }) {
+
+    useState(() => {
+
+    }, [total])
     return (
-        <div>Cart</div>
+        <>
+            {toogle &&
+                <div className='border_cart'>
+
+                </div>
+            }
+        </>
     )
 }

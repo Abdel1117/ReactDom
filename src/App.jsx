@@ -9,6 +9,7 @@ import Films from './Pages/Films/Films'
 import Converter from './Pages/Converter/Converter'
 import Carousel from './Pages/Carousel/Carousel'
 import Borne from './Pages/Borne/Borne'
+import Students from './Pages/Students/Students'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/Converter" element={<Converter />} />
         <Route path="/Carousel" element={<Carousel />} />
         <Route path="/Borne" element={<Borne />} />
+        <Route path="/Students" element={<Students />} />
       </Routes>
     </>
   )

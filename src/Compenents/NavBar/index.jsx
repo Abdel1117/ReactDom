@@ -14,6 +14,7 @@ export default function Nav() {
                 <Link className='link' to={"Converter"}>Converter</Link>
                 <Link className='link' to={"Carousel"}>Carousel</Link>
                 <Link className='link' to={"Borne"}>Borne</Link>
+                <Link className='link' to={"Students"}>Students</Link>
             </nav >
         </header >
     )
